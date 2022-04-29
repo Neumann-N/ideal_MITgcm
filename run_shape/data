@@ -54,8 +54,8 @@
 
 # Time stepping parameters
  &PARM03
- nIter0=1100000,
- nTimeSteps = 300000,
+ nIter0=7140000,
+ nTimeSteps = 1000000,
 # 100 years of integration will yield a reasonable flow field
 # startTime =          0.,
 # endTime   = 3110400000.,
