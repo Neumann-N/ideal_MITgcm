@@ -5,7 +5,7 @@
   
 ##NECESSARY JOB SPECIFICATIONS
 #SBATCH --job-name=mitgcm-ideal     #Set the job name to "JobExample1"
-#SBATCH --time=12:00:00            #Set the wall clock limit to 1hr and 30min
+#SBATCH --time=03:00:00            #Set the wall clock limit to 1hr and 30min
 #SBATCH --ntasks=32                 #Request 1 task
 #SBATCH --ntasks-per-node=8
 #SBATCH --mem=2560M                #Request 2560MB (2.5GB) per node

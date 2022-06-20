@@ -54,8 +54,8 @@
 
 # Time stepping parameters
  &PARM03
- nIter0=7140000,
- nTimeSteps = 1000000,
+ nIter0=0002360000,
+ nTimeSteps = 555000000,
 # 100 years of integration will yield a reasonable flow field
 # startTime =          0.,
 # endTime   = 3110400000.,
@@ -98,5 +98,5 @@
 # the_run_name=   'global_oce_latlon',
 # fresh water flux is turned on, comment next line to it turn off
 # (maybe better with surface salinity restoring)
- EmPmRFile=      'sflux.bin',
+ EmPmRFile=      'sflux2.bin',
  &
