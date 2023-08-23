@@ -13,8 +13,7 @@
 # GM_AdvForm     :	turn on GM Advective form       (default=Skew flux form)
 #
  &GM_PARM01 
-  GM_background_K    = 500.,
-  GM_isopycK	     = 50.,
+  GM_background_K    = 5.e+2,
   GM_taper_scheme    = 'dm95',
   GM_maxSlope        = 1.e-2,
   GM_Kmin_horiz      = 5.e2,

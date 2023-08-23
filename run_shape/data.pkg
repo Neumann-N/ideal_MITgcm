@@ -1,7 +1,6 @@
 # Packages (lines beginning "#" are comments)
  &PACKAGES
  useGMRedi=.TRUE.,
- useCal=.FALSE.,
  usediagnostics=.TRUE.,
  useLayers=.TRUE.,
  useRBCS=.TRUE. 
