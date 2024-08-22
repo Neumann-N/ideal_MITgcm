@@ -1,9 +1,0 @@
-#!/bin/bash
-
-module load intel/2020b
-module load netCDF-Fortran/4.5.3
-
-../../../tools/genmake2 -rootdir ../../../ -mods ../code/ -optfile ../code/linux_ia64_ifort_habanero -mpi
-
-make depend
-make
